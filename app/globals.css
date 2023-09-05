@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.add-cart-d {
+  @apply flex items-center px-3 justify-center bg-[#4aaf50] text-white  hover:bg-green-600 h-full w-20 rounded-l-2xl cursor-pointer outline-none;
+}
+
+.add-cart-t {
+  @apply flex px-4 items-center justify-center text-white w-full bg-[#4aaf50] font-light text-sm;
+}
+
+.add-cart-i {
+  @apply flex items-center px-3 justify-center bg-[#4aaf50] text-white  hover:bg-green-600 h-full w-20  rounded-r-2xl  cursor-pointer;
+}
